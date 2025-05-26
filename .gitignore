@@ -1,0 +1,22 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/  # Jika ada virtual environment lain di folder .venv
+
+# Environment variables
+.env/
+.env.local
+.env.*.local
+
+# Sensitive files
+*.key       # Menghindari pengunggahan file private key
+*.pem       # Jika ada file .pem yang juga private key
+*.crt       # Opsional: Jika .crt ini bersifat sensitif/lokal, tambahkan juga
+
+# VS Code specific
+.vscode/    # Jika ada pengaturan VS Code yang sangat spesifik atau lokal yang tidak ingin di-share
