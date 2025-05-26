@@ -1,4 +1,5 @@
 import asyncio
+import time
 import aiomqtt
 from config.config import Config
 
@@ -22,11 +23,15 @@ class MQTTConnector:
                 self.connected.clear()
                 await asyncio.sleep(5)
 
+    import time  # Tambahkan import ini
     async def publish(self, topic, payload):
         await self.connected.wait()  
         try:
+            start_time = time.time()  # Catat waktu sebelum publish
             await self.client.publish(topic, payload)
+            end_time = time.time()  # Catat waktu setelah publish
             print(f"Published: {payload} to topic: {topic}")
+            print(f"Time taken to publish: {end_time - start_time} seconds")  # Log waktu yang diambil
         except aiomqtt.MqttError as e:
             print(f"MQTT error saat publish: {e}")
 
