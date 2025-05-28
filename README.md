@@ -12,7 +12,7 @@ This project is a Python-based TCP server designed to receive and process GPS da
 - **Configurable**: Environment-based configuration management
 
 ## 🏗️  Architecture System
-::: mermaid
+``` mermaid
 graph TB
     %% Physical Layer
     subgraph "Vehicle & Sensors"
@@ -172,7 +172,7 @@ graph TB
     class App_MQTT,Data_Display appLayer
     class TCP_Format,JSON_Format,OBD_Params formatLayer
     class Step1,Step2,Step3,Step4,Step5,Step6,Step7,Step8,Step9,Step10,Step11,Step12,Process1,Process2,Process3,Process4,Process5,Process6,Process7,Process8,Source1,Source2,Source3,Source4 processLayer
-:::
+```
 
 ### Data Flow
 
