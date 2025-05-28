@@ -708,14 +708,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 
 
-## 📞 Support & Contact
-
-### 🆘 Getting Help
-- **Issues**: Report bugs atau request features via GitHub Issues
-- **Discussions**: Join komunitas discussions untuk Q&A
-- **Documentation**: Check dokumentasi lengkap di repository
-
-
 
 ---
 **⭐ Jika project ini membantu, jangan lupa berikan star di GitHub! ⭐**
