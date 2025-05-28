@@ -675,8 +675,8 @@ mosquitto_sub -h localhost -t topic/data
 
 ### Core Team
 - 🧑 **Afrizal** - Data Processing & Automation
-- 🙌 **Geryx** - Parser Development & MQTT Integration  
-- 💼 **Fachri** - Project Supervisor & Technical Guidance
+- 🙌 **Mas Geryx** - Parser Development & MQTT Integration  
+- 💼 **Mas Fachri** - Project Supervisor & Technical Guidance
 
 ### Kontribusi
 - **Architecture Design** - Modular system design dengan separation of concerns
