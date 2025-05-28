@@ -705,9 +705,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 **Penggunaan untuk keperluan edukasi dan riset sangat dianjurkan!**
 
----
-
-
 
 ---
 **⭐ Jika project ini membantu, jangan lupa berikan star di GitHub! ⭐**
